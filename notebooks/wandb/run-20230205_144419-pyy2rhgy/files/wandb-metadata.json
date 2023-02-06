@@ -1,0 +1,33 @@
+{
+    "os": "macOS-12.4-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-02-05T03:44:25.599323",
+    "startedAt": "2023-02-05T03:44:19.350359",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "macuject_registration/notebooks/development.ipynb",
+    "root": "/Users/charlesoneill/macuject_registration",
+    "git": {
+        "remote": "git@github.com:charlieoneill11/macuject_registration.git",
+        "commit": "253e98b8d751c558071caf46f14b2b7757ce8301"
+    },
+    "email": "cponeill00@gmail.com",
+    "host": "Charless-MacBook-Pro.local",
+    "username": "charlesoneill",
+    "executable": "/Users/charlesoneill/mambaforge/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 193.20795822143555
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

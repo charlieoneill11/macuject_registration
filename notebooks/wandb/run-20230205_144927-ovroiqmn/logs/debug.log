@@ -1,0 +1,79 @@
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Configure stats pid to 18070
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/.config/wandb/settings
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/macuject_registration/notebooks/wandb/settings
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_init.py:_log_setup():478] Logging user logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144927-ovroiqmn/logs/debug.log
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144927-ovroiqmn/logs/debug-internal.log
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_init.py:init():518] calling init triggers
+2023-02-05 14:49:27,437 INFO    MainThread:18070 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-02-05 14:49:27,438 INFO    MainThread:18070 [wandb_init.py:init():537] re-initializing run, found existing run on stack: pyy2rhgy
+2023-02-05 14:49:27,439 INFO    MainThread:18070 [wandb_run.py:_finish():1844] finishing run charlieoneill/macuject-registration/pyy2rhgy
+2023-02-05 14:49:27,443 INFO    MainThread:18070 [jupyter.py:save_history():449] not saving jupyter history
+2023-02-05 14:49:27,443 INFO    MainThread:18070 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-05 14:49:27,443 INFO    MainThread:18070 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2023-02-05 14:49:27,443 INFO    MainThread:18070 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-02-05 14:49:27,444 INFO    MainThread:18070 [wandb_run.py:_restore():2053] restore
+2023-02-05 14:49:27,444 INFO    MainThread:18070 [wandb_run.py:_restore():2059] restore done
+2023-02-05 14:51:09,219 INFO    MainThread:18070 [wandb_init.py:init():571] starting backend
+2023-02-05 14:51:09,221 INFO    MainThread:18070 [wandb_init.py:init():575] setting up manager
+2023-02-05 14:51:09,243 INFO    MainThread:18070 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-02-05 14:51:09,245 INFO    MainThread:18070 [wandb_init.py:init():582] backend started and connected
+2023-02-05 14:51:09,309 INFO    MainThread:18070 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-02-05 14:51:09,310 INFO    MainThread:18070 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-05 14:51:09,310 INFO    MainThread:18070 [wandb_init.py:init():670] updated telemetry
+2023-02-05 14:51:09,350 WARNING MainThread:18070 [wandb_init.py:init():1129] interrupted
+Traceback (most recent call last):
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 688, in init
+    run._populate_git_info()
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 772, in _populate_git_info
+    self._remote_url, self._commit = repo.remote_url, repo.last_commit
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/lib/git.py", line 93, in last_commit
+    if not self.repo.head or not self.repo.head.is_valid():
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/git/refs/symbolic.py", line 396, in is_valid
+    self.object
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/git/refs/symbolic.py", line 219, in _get_object
+    return Object.new_from_sha(self.repo, hex_to_bin(self.dereference_recursive(self.repo, self.path)))
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/git/objects/base.py", line 94, in new_from_sha
+    oinfo = repo.odb.info(sha1)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/git/db.py", line 40, in info
+    hexsha, typename, size = self._git.get_object_header(bin_to_hex(binsha))
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/git/cmd.py", line 1383, in get_object_header
+    return self.__get_object_header(cmd, ref)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/git/cmd.py", line 1370, in __get_object_header
+    return self._parse_object_header(cmd.stdout.readline())
+KeyboardInterrupt
+2023-02-05 14:51:48,300 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Configure stats pid to 18070
+2023-02-05 14:51:48,301 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/.config/wandb/settings
+2023-02-05 14:51:48,301 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/macuject_registration/notebooks/wandb/settings
+2023-02-05 14:51:48,301 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-05 14:51:48,301 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-05 14:51:48,301 INFO    MainThread:18070 [wandb_init.py:_log_setup():478] Logging user logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_145148-c6to6oc6/logs/debug.log
+2023-02-05 14:51:48,301 INFO    MainThread:18070 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_145148-c6to6oc6/logs/debug-internal.log
+2023-02-05 14:51:48,301 INFO    MainThread:18070 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1561afe80>
+2023-02-05 14:51:48,302 INFO    MainThread:18070 [wandb_init.py:init():518] calling init triggers
+2023-02-05 14:51:48,302 INFO    MainThread:18070 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-02-05 14:51:48,302 INFO    MainThread:18070 [wandb_init.py:init():571] starting backend
+2023-02-05 14:51:48,303 INFO    MainThread:18070 [wandb_init.py:init():575] setting up manager
+2023-02-05 14:51:48,310 INFO    MainThread:18070 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-02-05 14:51:48,313 INFO    MainThread:18070 [wandb_init.py:init():582] backend started and connected
+2023-02-05 14:51:48,328 INFO    MainThread:18070 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-02-05 14:51:48,329 INFO    MainThread:18070 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-05 14:51:48,329 INFO    MainThread:18070 [wandb_init.py:init():670] updated telemetry
+2023-02-05 14:51:48,369 INFO    MainThread:18070 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-05 14:52:01,178 WARNING MsgRouterThr:18070 [router.py:message_loop():77] message_loop has been closed
+2023-02-05 14:52:01,179 WARNING MsgRouterThr:18070 [router.py:message_loop():77] message_loop has been closed
+2023-02-05 14:52:01,179 WARNING MsgRouterThr:18070 [router.py:message_loop():77] message_loop has been closed
+2023-02-05 14:52:03,512 ERROR   MainThread:18070 [wandb_init.py:init():1135] error
+Traceback (most recent call last):
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1108, in init
+    run = wi.init()
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 713, in init
+    result = run_init_handle.wait(
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 271, in wait
+    raise MailboxError("transport failed")
+wandb.errors.MailboxError: transport failed

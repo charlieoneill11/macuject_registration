@@ -1,0 +1,369 @@
+2023-02-05 14:44:24,820 INFO    StreamThr :19373 [internal.py:wandb_internal():87] W&B internal server running at pid: 19373, started at: 2023-02-05 14:44:24.811145
+2023-02-05 14:44:24,839 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status
+2023-02-05 14:44:24,841 INFO    WriterThread:19373 [datastore.py:open_for_write():85] open: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/run-pyy2rhgy.wandb
+2023-02-05 14:44:24,858 DEBUG   SenderThread:19373 [sender.py:send():334] send: header
+2023-02-05 14:44:24,858 DEBUG   SenderThread:19373 [sender.py:send():334] send: run
+2023-02-05 14:44:25,465 INFO    SenderThread:19373 [dir_watcher.py:__init__():216] watching files in: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files
+2023-02-05 14:44:25,466 INFO    SenderThread:19373 [sender.py:_start_run_threads():1065] run started: pyy2rhgy with start time 1675568664.020661
+2023-02-05 14:44:25,466 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: summary_record
+2023-02-05 14:44:25,466 INFO    SenderThread:19373 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-05 14:44:25,473 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: check_version
+2023-02-05 14:44:25,473 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: check_version
+2023-02-05 14:44:25,579 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: run_start
+2023-02-05 14:44:25,596 DEBUG   HandlerThread:19373 [system_info.py:__init__():31] System info init
+2023-02-05 14:44:25,597 DEBUG   HandlerThread:19373 [system_info.py:__init__():46] System info init done
+2023-02-05 14:44:25,597 INFO    HandlerThread:19373 [system_monitor.py:start():151] Starting system monitor
+2023-02-05 14:44:25,597 INFO    SystemMonitor:19373 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-05 14:44:25,597 INFO    HandlerThread:19373 [system_monitor.py:probe():172] Collecting system info
+2023-02-05 14:44:25,598 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started cpu
+2023-02-05 14:44:25,599 DEBUG   HandlerThread:19373 [system_info.py:probe():195] Probing system
+2023-02-05 14:44:25,599 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started disk
+2023-02-05 14:44:25,605 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started gpuapple
+2023-02-05 14:44:25,609 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started memory
+2023-02-05 14:44:25,610 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started network
+2023-02-05 14:44:25,611 DEBUG   HandlerThread:19373 [system_info.py:_probe_git():180] Probing git
+2023-02-05 14:44:25,633 DEBUG   HandlerThread:19373 [system_info.py:_probe_git():188] Probing git done
+2023-02-05 14:44:25,634 DEBUG   HandlerThread:19373 [system_info.py:probe():241] Probing system done
+2023-02-05 14:44:25,634 DEBUG   HandlerThread:19373 [system_monitor.py:probe():181] {'os': 'macOS-12.4-arm64-arm-64bit', 'python': '3.9.13', 'heartbeatAt': '2023-02-05T03:44:25.599323', 'startedAt': '2023-02-05T03:44:19.350359', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'macuject_registration/notebooks/development.ipynb', 'root': '/Users/charlesoneill/macuject_registration', 'git': {'remote': 'git@github.com:charlieoneill11/macuject_registration.git', 'commit': '253e98b8d751c558071caf46f14b2b7757ce8301'}, 'email': 'cponeill00@gmail.com', 'host': 'Charless-MacBook-Pro.local', 'username': 'charlesoneill', 'executable': '/Users/charlesoneill/mambaforge/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 228.27386474609375, 'used': 193.20795822143555}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-02-05 14:44:25,634 INFO    HandlerThread:19373 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-05 14:44:25,634 INFO    HandlerThread:19373 [system_monitor.py:probe():185] Publishing system info
+2023-02-05 14:44:25,634 DEBUG   HandlerThread:19373 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-05 14:44:25,635 DEBUG   HandlerThread:19373 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-05 14:44:25,635 DEBUG   HandlerThread:19373 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-05 14:44:26,472 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/conda-environment.yaml
+2023-02-05 14:44:26,472 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/wandb-summary.json
+2023-02-05 14:44:26,472 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/requirements.txt
+2023-02-05 14:44:31,197 DEBUG   HandlerThread:19373 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-05 14:44:31,200 INFO    HandlerThread:19373 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-05 14:44:31,200 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:44:31,201 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:44:31,202 DEBUG   SenderThread:19373 [sender.py:send():334] send: files
+2023-02-05 14:44:31,202 INFO    SenderThread:19373 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-02-05 14:44:31,231 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-05 14:44:31,231 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: stop_status
+2023-02-05 14:44:31,239 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-05 14:44:31,247 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: pause
+2023-02-05 14:44:31,248 INFO    HandlerThread:19373 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-02-05 14:44:31,248 INFO    HandlerThread:19373 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-05 14:44:31,270 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-05 14:44:31,270 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-05 14:44:31,270 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-05 14:44:31,271 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined cpu
+2023-02-05 14:44:31,271 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined disk
+2023-02-05 14:44:31,271 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined gpuapple
+2023-02-05 14:44:31,271 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined memory
+2023-02-05 14:44:31,271 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined network
+2023-02-05 14:44:31,484 DEBUG   SenderThread:19373 [sender.py:send():334] send: telemetry
+2023-02-05 14:44:31,484 DEBUG   SenderThread:19373 [sender.py:send():334] send: history
+2023-02-05 14:44:31,484 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: summary_record
+2023-02-05 14:44:31,486 INFO    SenderThread:19373 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-05 14:44:31,490 DEBUG   SenderThread:19373 [sender.py:send():334] send: telemetry
+2023-02-05 14:44:31,491 DEBUG   SenderThread:19373 [sender.py:send():334] send: stats
+2023-02-05 14:44:31,492 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/wandb-summary.json
+2023-02-05 14:44:31,493 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/conda-environment.yaml
+2023-02-05 14:44:31,493 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/wandb-metadata.json
+2023-02-05 14:44:31,493 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/output.log
+2023-02-05 14:44:32,209 INFO    Thread-84 :19373 [upload_job.py:push():143] Uploaded file /var/folders/k4/z1fdqs457dx3kgvlgz2mxrz80000gn/T/tmp55sjteytwandb/yrm8z6nt-wandb-metadata.json
+2023-02-05 14:44:33,504 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/output.log
+2023-02-05 14:44:36,516 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:44:41,536 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:44:46,232 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:44:46,233 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:44:46,553 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:44:51,249 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:44:51,573 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:44:56,270 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:44:56,596 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:44:57,610 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/config.yaml
+2023-02-05 14:45:01,295 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:01,971 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:06,311 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:06,990 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:11,327 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:12,015 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:16,354 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:17,034 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:21,373 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:22,057 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:26,396 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:27,081 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:31,419 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:32,096 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:36,435 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:37,120 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:41,456 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:42,139 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:46,478 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:47,160 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:51,502 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:52,184 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:45:56,511 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:45:57,205 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:01,525 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:02,224 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:06,539 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:07,237 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:11,554 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:12,250 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:16,568 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:17,264 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:21,580 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:22,282 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:26,590 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:27,298 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:31,613 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:32,318 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:36,638 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:37,343 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:41,668 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:42,358 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:46,686 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:47,380 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:51,709 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:52,400 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:46:56,728 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:46:57,414 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:01,750 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:02,432 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:06,773 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:07,451 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:11,790 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:12,473 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:16,810 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:17,492 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:21,828 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:22,508 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:26,855 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:27,526 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:31,876 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:32,543 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:36,892 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:37,569 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:41,915 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:42,587 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:46,934 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:47,604 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:51,952 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:52,621 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:47:56,977 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:47:57,645 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:01,994 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:02,667 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:07,008 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:07,677 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:12,018 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:12,691 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:17,033 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:17,707 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:22,058 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:22,731 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:27,078 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:27,748 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:32,097 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:32,762 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:37,115 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:37,777 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:42,132 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:42,792 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:47,148 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:47,807 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:52,165 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:52,824 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:48:57,178 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:48:57,837 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:49:02,192 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:02,857 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:49:07,208 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:07,870 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:49:10,062 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: resume
+2023-02-05 14:49:10,062 INFO    HandlerThread:19373 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-02-05 14:49:10,064 INFO    HandlerThread:19373 [system_monitor.py:start():151] Starting system monitor
+2023-02-05 14:49:10,067 INFO    SystemMonitor:19373 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-05 14:49:10,075 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started cpu
+2023-02-05 14:49:10,075 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started disk
+2023-02-05 14:49:10,078 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started gpuapple
+2023-02-05 14:49:10,079 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started memory
+2023-02-05 14:49:10,082 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started network
+2023-02-05 14:49:12,230 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:12,894 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:49:17,243 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:17,915 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:49:22,264 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:22,935 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:49:27,115 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: pause
+2023-02-05 14:49:27,115 INFO    HandlerThread:19373 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-02-05 14:49:27,115 INFO    HandlerThread:19373 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-05 14:49:27,140 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-05 14:49:27,142 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-05 14:49:27,142 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-05 14:49:27,142 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined cpu
+2023-02-05 14:49:27,144 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined disk
+2023-02-05 14:49:27,144 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined gpuapple
+2023-02-05 14:49:27,144 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined memory
+2023-02-05 14:49:27,144 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined network
+2023-02-05 14:49:27,144 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: resume
+2023-02-05 14:49:27,144 INFO    HandlerThread:19373 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-02-05 14:49:27,144 INFO    HandlerThread:19373 [system_monitor.py:start():151] Starting system monitor
+2023-02-05 14:49:27,144 INFO    SystemMonitor:19373 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-05 14:49:27,145 DEBUG   SenderThread:19373 [sender.py:send():334] send: stats
+2023-02-05 14:49:27,145 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started cpu
+2023-02-05 14:49:27,148 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started disk
+2023-02-05 14:49:27,148 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started gpuapple
+2023-02-05 14:49:27,151 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started memory
+2023-02-05 14:49:27,153 INFO    SystemMonitor:19373 [interfaces.py:start():168] Started network
+2023-02-05 14:49:27,286 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:27,440 DEBUG   SenderThread:19373 [sender.py:send():334] send: telemetry
+2023-02-05 14:49:27,445 DEBUG   SenderThread:19373 [sender.py:send():334] send: exit
+2023-02-05 14:49:27,445 INFO    SenderThread:19373 [sender.py:send_exit():557] handling exit code: 0
+2023-02-05 14:49:27,445 INFO    SenderThread:19373 [sender.py:send_exit():559] handling runtime: 23
+2023-02-05 14:49:27,446 INFO    SenderThread:19373 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-05 14:49:27,446 INFO    SenderThread:19373 [sender.py:send_exit():565] send defer
+2023-02-05 14:49:27,446 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: defer
+2023-02-05 14:49:27,447 INFO    HandlerThread:19373 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-05 14:49:27,447 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: defer
+2023-02-05 14:49:27,447 INFO    SenderThread:19373 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-02-05 14:49:27,447 INFO    SenderThread:19373 [sender.py:transition_state():585] send defer: 1
+2023-02-05 14:49:27,447 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: defer
+2023-02-05 14:49:27,447 INFO    HandlerThread:19373 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-05 14:49:27,447 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: defer
+2023-02-05 14:49:27,447 INFO    SenderThread:19373 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-02-05 14:49:27,447 INFO    SenderThread:19373 [sender.py:transition_state():585] send defer: 2
+2023-02-05 14:49:27,447 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: defer
+2023-02-05 14:49:27,447 INFO    HandlerThread:19373 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-05 14:49:27,447 INFO    HandlerThread:19373 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-05 14:49:27,463 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-05 14:49:27,464 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-05 14:49:27,464 DEBUG   SystemMonitor:19373 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-05 14:49:27,464 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined cpu
+2023-02-05 14:49:27,464 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined disk
+2023-02-05 14:49:27,568 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined gpuapple
+2023-02-05 14:49:27,568 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined memory
+2023-02-05 14:49:27,568 INFO    HandlerThread:19373 [interfaces.py:finish():175] Joined network
+2023-02-05 14:49:27,568 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: defer
+2023-02-05 14:49:27,568 INFO    SenderThread:19373 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-02-05 14:49:27,568 INFO    SenderThread:19373 [sender.py:transition_state():585] send defer: 3
+2023-02-05 14:49:27,568 DEBUG   SenderThread:19373 [sender.py:send():334] send: stats
+2023-02-05 14:49:27,568 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: defer
+2023-02-05 14:49:27,569 INFO    HandlerThread:19373 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-05 14:49:27,569 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: defer
+2023-02-05 14:49:27,569 INFO    SenderThread:19373 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-02-05 14:49:27,569 INFO    SenderThread:19373 [sender.py:transition_state():585] send defer: 4
+2023-02-05 14:49:27,569 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: defer
+2023-02-05 14:49:27,569 INFO    HandlerThread:19373 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-05 14:49:27,569 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: defer
+2023-02-05 14:49:27,569 INFO    SenderThread:19373 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-02-05 14:49:27,569 INFO    SenderThread:19373 [sender.py:transition_state():585] send defer: 5
+2023-02-05 14:49:27,569 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: defer
+2023-02-05 14:49:27,569 INFO    HandlerThread:19373 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-05 14:49:27,569 DEBUG   SenderThread:19373 [sender.py:send():334] send: summary
+2023-02-05 14:49:27,569 INFO    SenderThread:19373 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-05 14:49:27,569 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: defer
+2023-02-05 14:49:27,569 INFO    SenderThread:19373 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-02-05 14:49:27,569 INFO    SenderThread:19373 [sender.py:transition_state():585] send defer: 6
+2023-02-05 14:49:27,569 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: defer
+2023-02-05 14:49:27,570 INFO    HandlerThread:19373 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-05 14:49:27,570 DEBUG   SenderThread:19373 [sender.py:send_request():361] send_request: defer
+2023-02-05 14:49:27,570 INFO    SenderThread:19373 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-02-05 14:49:27,576 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: status_report
+2023-02-05 14:49:27,833 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/wandb-summary.json
+2023-02-05 14:49:27,853 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:49:27,854 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:49:28,454 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-05 14:49:29,297 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:49:29,297 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:49:29,845 INFO    Thread-81 :19373 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/files/output.log
+2023-02-05 14:49:32,485 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:49:32,486 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:49:32,487 INFO    SenderThread:19373 [retry.py:__call__():169] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 128, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 241, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2023-02-05 14:49:33,483 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:37,437 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:49:37,438 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:49:38,507 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:43,525 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:46,194 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:49:46,194 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:49:48,553 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:53,564 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:49:58,588 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:03,603 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:05,110 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:50:05,110 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:50:08,616 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:13,641 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:18,663 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:23,689 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:28,725 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:33,745 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:38,769 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:40,326 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:50:40,327 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:50:43,803 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:48,825 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:53,847 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:50:58,867 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:51:03,879 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:51:08,896 DEBUG   HandlerThread:19373 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-05 14:51:58,200 ERROR   SenderThread:19373 [internal_api.py:execute():244] 409 response executing GraphQL.
+2023-02-05 14:51:58,203 ERROR   SenderThread:19373 [internal_api.py:execute():245] {"errors":[{"message":"run charlieoneill/macuject-registration/pyy2rhgy was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-02-05 14:51:59,068 INFO    WriterThread:19373 [datastore.py:close():299] close: /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_144419-pyy2rhgy/run-pyy2rhgy.wandb
+2023-02-05 14:51:59,114 INFO    HandlerThread:19373 [handler.py:finish():841] shutting down handler
+2023-02-05 14:51:59,115 ERROR   StreamThr :19373 [internal.py:wandb_internal():175] Thread SenderThread:
+Traceback (most recent call last):
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1592, in upsert_run
+    response = self.gql(
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 213, in gql
+    ret = self._retry_gql(
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 128, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 241, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 329, in _process
+    self._sm.send(record)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 341, in send
+    send_handler(record)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 363, in send_request
+    send_handler(record)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 607, in send_request_defer
+    self.debounce(final=True)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 510, in debounce
+    self._maybe_update_config(always=final)
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 487, in _maybe_update_config
+    self._debounce_config()
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 516, in _debounce_config
+    self._api.upsert_run(
+  File "/Users/charlesoneill/mambaforge/lib/python3.9/site-packages/wandb/apis/normalize.py", line 28, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [409]>

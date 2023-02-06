@@ -1,0 +1,51 @@
+2023-02-05 14:37:20,449 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Configure stats pid to 18070
+2023-02-05 14:37:20,450 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/.config/wandb/settings
+2023-02-05 14:37:20,450 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/macuject_registration/notebooks/wandb/settings
+2023-02-05 14:37:20,450 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-05 14:37:20,450 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-05 14:37:20,450 INFO    MainThread:18070 [wandb_init.py:_log_setup():478] Logging user logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_143720-yrpe4rle/logs/debug.log
+2023-02-05 14:37:20,450 INFO    MainThread:18070 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_143720-yrpe4rle/logs/debug-internal.log
+2023-02-05 14:37:20,450 INFO    MainThread:18070 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x143e7a5b0>
+2023-02-05 14:37:20,452 INFO    MainThread:18070 [wandb_init.py:init():518] calling init triggers
+2023-02-05 14:37:20,452 INFO    MainThread:18070 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-02-05 14:37:20,452 INFO    MainThread:18070 [wandb_init.py:init():571] starting backend
+2023-02-05 14:37:20,452 INFO    MainThread:18070 [wandb_init.py:init():575] setting up manager
+2023-02-05 14:37:20,457 INFO    MainThread:18070 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-02-05 14:37:20,463 INFO    MainThread:18070 [wandb_init.py:init():582] backend started and connected
+2023-02-05 14:37:20,619 INFO    MainThread:18070 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-02-05 14:37:20,620 INFO    MainThread:18070 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-05 14:37:20,620 INFO    MainThread:18070 [wandb_init.py:init():670] updated telemetry
+2023-02-05 14:37:20,718 INFO    MainThread:18070 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-05 14:37:21,470 INFO    MainThread:18070 [wandb_run.py:_on_init():2121] communicating current version
+2023-02-05 14:37:21,579 INFO    MainThread:18070 [wandb_run.py:_on_init():2125] got version response 
+2023-02-05 14:37:21,580 INFO    MainThread:18070 [wandb_init.py:init():758] starting run threads in backend
+2023-02-05 14:37:27,086 INFO    MainThread:18070 [wandb_run.py:_console_start():2101] atexit reg
+2023-02-05 14:37:27,087 INFO    MainThread:18070 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-02-05 14:37:27,087 INFO    MainThread:18070 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-02-05 14:37:27,087 INFO    MainThread:18070 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-02-05 14:37:27,088 INFO    MainThread:18070 [wandb_init.py:init():798] run started, returning control to user process
+2023-02-05 14:37:27,118 INFO    MainThread:18070 [wandb_init.py:_pause_backend():391] pausing backend
+2023-02-05 14:37:27,118 INFO    MainThread:18070 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-05 14:38:36,456 INFO    MainThread:18070 [wandb_init.py:_resume_backend():400] resuming backend
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Configure stats pid to 18070
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/.config/wandb/settings
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from /Users/charlesoneill/macuject_registration/notebooks/wandb/settings
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_init.py:_log_setup():478] Logging user logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_143841-w8bbvhvp/logs/debug.log
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/charlesoneill/macuject_registration/notebooks/wandb/run-20230205_143841-w8bbvhvp/logs/debug-internal.log
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_init.py:init():518] calling init triggers
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-02-05 14:38:41,171 INFO    MainThread:18070 [wandb_init.py:init():537] re-initializing run, found existing run on stack: yrpe4rle
+2023-02-05 14:38:41,178 INFO    MainThread:18070 [wandb_run.py:_finish():1844] finishing run charlieoneill/macuject-registration/yrpe4rle
+2023-02-05 14:38:41,188 INFO    MainThread:18070 [jupyter.py:save_history():449] not saving jupyter history
+2023-02-05 14:38:41,189 INFO    MainThread:18070 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-05 14:38:41,189 INFO    MainThread:18070 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2023-02-05 14:38:41,191 INFO    MainThread:18070 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-02-05 14:38:41,196 INFO    MainThread:18070 [wandb_run.py:_restore():2053] restore
+2023-02-05 14:38:41,196 INFO    MainThread:18070 [wandb_run.py:_restore():2059] restore done
+2023-02-05 14:38:45,785 INFO    MainThread:18070 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-02-05 14:38:45,787 INFO    MainThread:18070 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-02-05 14:38:45,799 INFO    MainThread:18070 [wandb_run.py:_footer_sync_info():3383] logging synced files
